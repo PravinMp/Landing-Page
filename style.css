@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.Container {
+  background: url(./image/tech.jpg);
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+.learn {
+  text-decoration: none;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+.features {
+  text-align: center;
+  background-color: aqua;
+}
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #fa00fa;
+  color: white;
+}
+h3{
+  text-align: center;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #050505;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-items: center;
+}
+
+input[type=submit]:hover {
+  background-color: black;
+  align-items: center;
+}
+
+.container {
+  border-radius:10px;
+  background-color: rgb(252, 252, 252);
+  padding: 20px;
+}
+footer {
+  background-color: black;
+  color: rgb(27, 202, 233);
+  padding: 5px;
+  text-align: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+
+}
